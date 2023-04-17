@@ -55,13 +55,13 @@ function App() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(num)
     };
-    fetch('https://recruiting.verylongdomaintotestwith.ca/api/rayonetwo/character', requestOptions)
+    fetch('https://recruiting.verylongdomaintotestwith.ca/api/{rayonetwo}/character', requestOptions)
       .then(response => response.json())
       .then(data => console.log(data));
   }
 
   function get() {
-    fetch('https://recruiting.verylongdomaintotestwith.ca/api/rayonetwo/character')
+    fetch('https://recruiting.verylongdomaintotestwith.ca/api/{rayonetwo}/character')
       .then(response => response.json())
       .then(data => {
         setCharacter(data);
