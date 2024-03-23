@@ -1,4 +1,4 @@
-# recruiting-webapp-character
+# rpg-character-sheet
 React coding test
 
 # Create a repository from this template
